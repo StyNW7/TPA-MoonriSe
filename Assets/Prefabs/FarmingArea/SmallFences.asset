@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b322434c4c93cca419dfafef2cb3dfa2, type: 3}
+  m_Name: SmallFences
+  m_EditorClassIdentifier: 
+  farmName: Small Farm
+  farmCostType: Wood
+  farmCostValue: 50
+  farmTexture: {fileID: 2800000, guid: 8368f365f2133a843960f035013a791d, type: 3}
+  quantity: 0
+  farmPrefab: {fileID: 9133577931173091308, guid: aed2ed53f9f165f4ba4bed27f5d42e9b, type: 3}

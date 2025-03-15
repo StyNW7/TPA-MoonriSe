@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8636741596587659930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935661283872536394}
+  - component: {fileID: 6794191363597037085}
+  - component: {fileID: -1507407709040525767}
+  m_Layer: 13
+  m_Name: TomatoPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935661283872536394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636741596587659930}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 228.81728, y: 1.6238571, z: 256.3346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6794191363597037085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636741596587659930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3e23a62fcd64241b3682b5b2f93fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growthStages:
+  - prefab: {fileID: 8331122410249767392, guid: 21a943416d299964db11178709254a5c, type: 3}
+    timeToNextStage: 180
+  - prefab: {fileID: 9218926353566358502, guid: 21c3b0981b30e4a4fbe7ee06a7a01e9c, type: 3}
+    timeToNextStage: 180
+  - prefab: {fileID: 5054277889059016994, guid: deaeac373cba7d44a91c13da3f7d120f, type: 3}
+    timeToNextStage: 180
+  - prefab: {fileID: 4107486585739814537, guid: 916a926802437cc4e80e17da5389ae28, type: 3}
+    timeToNextStage: 180
+  plantName: Tomato
+  isMatured: 0
+  lootPrefab: {fileID: 957033167445334882, guid: 1c377c64e8710b34f91cbfb7852bec59, type: 3}
+  player: {fileID: 0}
+  interactionDistance: 2
+  interactionPanel: {fileID: 0}
+  interactionText: {fileID: 0}
+  currentStage: 0
+  currentPlantObject: {fileID: 0}
+  lootSpawner: {fileID: 0}
+--- !u!65 &-1507407709040525767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636741596587659930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
