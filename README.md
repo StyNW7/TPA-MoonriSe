@@ -13,13 +13,15 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [MoonriSe Documentation](#introduction)
+- [Download Game](#download)
+- [Prerequisite](#prerequisite)
 - [Game Display](#game-display)
 - [Game Clip](#game-clip)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## **MoonriSe Documentation** 🌖🌙
+## **MoonriSe** 🌖🌙
 
 ### **Introduction**
 Welcome to **MoonriSe**, a captivating adventure set in a vibrant open world where players can farm, trade, explore, and battle their way to survival. Built in **Unity**, this game offers a unique blend of peaceful farming life and thrilling dungeon crawling, creating an immersive experience reminiscent of **Stardew Valley** but with a darker twist.
@@ -55,6 +57,8 @@ Survival is key, but so is **strategic management**—balancing peaceful activit
 
 ### **Conclusion**
 MoonriSe is an exciting mix of **farming, adventure, and survival**, offering endless possibilities for players who love both relaxation and challenge. Whether you enjoy **building a thriving farm**, **battling zombies**, or **exploring dungeons**, MoonriSe provides a dynamic and rewarding experience!
+
+## Download
 
 You can try my game via this link (Download all of the Assets) : https://bit.ly/TPA-MoonriSe
 
@@ -131,53 +135,55 @@ Because, right now I'm not building the project, so you should run the project l
    - Inspect objects and scripts in the Scene and Hierarchy to troubleshoot any issues.
 
 
-<!-- ## Game Display
+## Game Display
 
 Here are some snapshots of MoonriSe:
 
-* Lobby Menu - Where the Journey Begins
+* Start Menu - Where the Journey Begins
 
 <p align="center">
-  <img src = "https://res.cloudinary.com/dxcn5osfu/image/upload/f_auto,q_auto/v1/MoonriSe/guhyoo2anlwxpfqnja2j" width=700>
+  <img src = "./Images/Lobby.png" width=700>
 </p>
 
-* Upgrade Menu - Time to Gear Up and Fight the Enemies
+* Resoucr Market Menu - Time to get resources
 
 <p align="center">
-  <img src = "https://res.cloudinary.com/dxcn5osfu/image/upload/f_auto,q_auto/v1/MoonriSe/a0bl7vw5taef9yp4lmc4" width=700>
-</p>
-
-* The Game - Fight till We Perish the Evil
-
-<p align="center">
-  <img src = "https://res.cloudinary.com/dxcn5osfu/image/upload/f_auto,q_auto/v1/MoonriSe/dyiwju5h6jh6cseg0x9m" width=700>
+  <img src = "./Images/Shop.png" width=700>
 </p>
 
 ## Game Clip
 
 Here are some cool actions of MoonriSe:
 
-* Combat - Duel between Player and Enemy using Queue and State Pattern
+* Combat - Duel between Hero and Zombie using State Pattern.
 
 <p align="center">
-  <img src = "MoonriSe - Demo - Combat - GIF.gif" width=700>
+  <img src = "./Images/clip-1.gif" width=700>
+  <!-- <video src = "./Images/Video-1.mp4"></video> -->
 </p>
 
 
-* Walking - Player Walks to Destination using A* Pathfinding Algorithm
+* Fishing - Tired with Combat? Just go play the fishing mini games.
 
 <p align="center">
-  <img src = "MoonriSe - Demo - Walking - GIF.gif" width=700>
-</p> -->
+  <img src = "./Images/clip-2.gif" width=700>
+  <!-- <video src = "./Images/Video-2.mp4"></video> -->
+</p>
 
 
-##### Hopefully, this documentation and guide are helpful for learning and running the game project!
+<!-- ##### Hopefully, this documentation and guide are helpful for learning and running the game project! -->
 
 <!-- Owner -->
 
 ## Owner
 
-This Repository is created by (last modified Friday, 14 February 2025):
-- Stanley Nathanael Wijaya - NW25-1
+This Repository is created by (Project last modified Friday, 14 February 2025):
+- Stanley Nathanael Wijaya (NW25-1)
+
+## 📧 Contact Information
+If any questions occured, or in the need of any discussion or details,
+please contact me:
+- Email : stanley.n.wijaya7@gmail.com
+- Discord : stynw7
 
 <code> Striving for Excellence ❤️‍🔥❤️‍🔥 </code>
